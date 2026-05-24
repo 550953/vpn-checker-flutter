@@ -1,17 +1,35 @@
-# ip_checker
+﻿# 🔍 VPN Checker
 
-A new Flutter project.
+Мобильное приложение для проверки доступности VPN-серверов по портам 22 (SSH), 80 (HTTP) и 443 (HTTPS).
 
-## Getting Started
+## 📱 Особенности
 
-This project is a starting point for a Flutter application.
+- ⚡ Быстрая проверка IP-адресов из облачного списка
+- 🎯 Проверка портов: 22, 80, 443
+- 📋 Копирование списка живых IP одним нажатием
+- 🎨 Тёмная тема
+- 📊 Прогресс и статус проверки
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Технологии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter (Dart)
+- HTTP-запросы для портов 80/443
+- TCP Socket для порта 22
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📥 Источник IP-адресов
+
+https://storage.yandexcloud.net/vpn-ips/ip.txt
+
+## 🚀 Установка
+
+### Android
+Скачайте APK и установите (разрешите установку из неизвестных источников).
+
+### iOS
+Установите через AltStore или SideStore (требуется переподпись каждые 7 дней).
+
+## 📄 Лицензия
+
+MIT
+
+**Автор:** Shikin Nikolay
